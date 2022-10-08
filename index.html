@@ -119,6 +119,60 @@
     <footer>
         <div>
             <h3>Form</h3>
+            <form>
+                <fieldset>
+                    <div>
+                        <input type="text" name="name" value="Name"/>
+                        <input type="date" name="date" value="2022-10-09"/>
+                        <select name="continent">
+                            <option value="">Choose a continent</option>
+                            <option value="africa">Africa</option>
+                            <option value="antarctica">Antarctica</option>
+                            <option value="asia">Asia</option>
+                            <option value="oceania">Oceania</option>
+                            <option value="europe">Europe</option>
+                            <option value="northamerica">North America</option>
+                            <option value="southamerica">South America</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="message">Message:</label>
+                        <br>
+                        <textarea id="message" name="message" cols="57"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <input type="checkbox" name="checks_boxes" id="checkbox"/>
+                        <label for="checkbox">Do you check boxes?</label>
+                    </div>
+                    <br>
+                    <fieldset>
+                        <legend>Which are you most often?</legend>
+                        <div>
+                            <input type="radio" id="goofus" name="attitude"/>
+                            <label for="goofus">Goofus</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="gallant" name="attitude"/>
+                            <label for="gallant">Gallant</label>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <div>
+                        <label for="browser">Enter your web browser:</label>
+                        <input list="browsers" id="browser" name="browser"/>
+                        <datalist id="browsers">
+                            <option value="Chrome"></option>
+                            <option value="Firefox"></option>
+                            <option value="Edge"></option>
+                            <option value="Opera"></option>
+                        </datalist>
+                    </div>
+                </fieldset>
+                <br>
+                <button>Submit Form</button>
+            </form>
         </div>
         <div>
             <p>The source for this site is available on GitHub in 
