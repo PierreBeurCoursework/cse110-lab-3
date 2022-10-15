@@ -1,2 +1,2 @@
-# Lab 2
-[pierrebeur.github.io/cse110-lab-2](https://pierrebeur.github.io/cse110-lab-2/)
+# Lab 3
+[pierrebeur.github.io/cse110-lab-3](https://pierrebeur.github.io/cse110-lab-3/)
