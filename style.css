@@ -1,4 +1,5 @@
 html {
     background-color: #181a1b; /* apply background color for entire page */
     color: white; /* apply text color for entire page */
+    font-family: 'Ubuntu', sans-serif; /* apply text font for entire page */
 }
