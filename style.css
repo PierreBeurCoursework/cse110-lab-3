@@ -6,3 +6,19 @@ html {
     background-color: #181a1b; /* apply background color for html element */
     color: white; /* apply text color for html element */
 }
+
+.text-block {
+    text-align: justify;
+    margin: 1rem 1rem 1rem 1.4rem;
+}
+
+ol > li {
+    margin: auto;
+}
+
+header li {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
+}
