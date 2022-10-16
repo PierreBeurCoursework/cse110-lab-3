@@ -28,14 +28,6 @@ header li {
     padding-right: 1px;
 }
 
-fieldset.attitude-radio {
-    display: block;
-}
-
-#form-top {
-    display: inline;
-}
-
 fieldset, input, select, textarea, button {
     border-style: solid;
     border-color: rgb(255, 255, 255);
@@ -47,4 +39,16 @@ input, select, textarea, button {
     border-radius: 2px;
     background-color: hsl(200, 6%, 15%);
     color: white; /* text color */
+}
+
+#form-top {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+fieldset.attitude-radio {
+    display: block;
 }
