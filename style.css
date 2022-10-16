@@ -27,3 +27,16 @@ header li {
     padding-left: 1px;
     padding-right: 1px;
 }
+
+fieldset, input, select, textarea, button {
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+input, select, textarea, button {
+    border-radius: 2px;
+    background-color: hsl(200, 6%, 15%);
+    color: white;
+}
