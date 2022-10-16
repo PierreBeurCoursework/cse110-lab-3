@@ -1,4 +1,4 @@
 html {
-    background-color: #181a1b;
-    color: white;
+    background-color: #181a1b; /* apply background color for entire page */
+    color: white; /* apply text color for entire page */
 }
