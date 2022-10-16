@@ -49,7 +49,7 @@ input, select, textarea, button {
     gap: 5px;
 }
 
-#message {
+[name="message"] {
     height: 4rem;
     min-width: 182px;
     max-width: 454px;
