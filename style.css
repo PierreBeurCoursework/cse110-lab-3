@@ -61,11 +61,27 @@ input, select, textarea, button {
     max-width: 454px;
 }
 
+[for="goofus"]:hover {
+    color: rgb(255, 0, 0);
+}
+
+[for="gallant"]:hover {
+    color: rgb(0, 255, 0);
+}
+
 #submit-button {
     height: 2rem;
     width: 7rem;
     position: relative;
     left: 1rem;
+}
+
+#submit-button:hover {
+    background-color: midnightblue;
+}
+
+#submit-button:active {
+    background-color: maroon;
 }
 
 fieldset.attitude-radio {
