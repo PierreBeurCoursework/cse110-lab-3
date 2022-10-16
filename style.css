@@ -4,7 +4,7 @@
 
 html {
     background-color: #181a1b; /* apply background color for html element */
-    color: white; /* apply text color for html element */
+    color: white; /* text color for html element */
 }
 
 .text-block {
@@ -38,5 +38,5 @@ fieldset, input, select, textarea, button {
 input, select, textarea, button {
     border-radius: 2px;
     background-color: hsl(200, 6%, 15%);
-    color: white;
+    color: white; /* text color */
 }
